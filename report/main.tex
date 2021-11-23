@@ -1,0 +1,40 @@
+\input{packages}
+\input{config}
+
+\begin{document}
+
+\input{cover}
+\newpage
+\input{title_page}
+
+\setcounter{table}{0}
+
+\newpage
+\input{section/abstract}
+\newpage
+\tableofcontents
+% \newpage
+% \listoffigures
+% \newpage
+% \listoftables
+\newpage
+\input{section/abbreviation}
+
+\newpage
+\input{section/introduction}
+% \newpage
+% \input{section/objectives}
+% \newpage
+% \input{section/methodology}
+% \newpage
+% \input{section/results}
+% \newpage
+% \input{section/conclusions}
+
+\newpage
+% \cite{*}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\addcontentsline{toc}{section}{References}
+
+\end{document}

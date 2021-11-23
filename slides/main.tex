@@ -1,0 +1,40 @@
+\input{packages}
+\input{config}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% \begin{frame}{Table of Contents}
+%     \begin{multicols}{2}
+%     \tableofcontents[sections={1}]
+%     \framebreak
+%   \tableofcontents[sections={2-3}]
+%     \end{multicols}
+% \end{frame}
+
+\input{slides/motivation}
+\input{slides/objectives}
+\input{slides/methodology}
+\input{slides/results}
+\input{slides/conclusions}
+
+\appendix
+
+\begin{frame}[allowframebreaks]{References}
+    \tiny
+    \cite{*}
+    \bibliographystyle{plainnat}
+    \bibliography{references}
+    % \addcontentsline{toc}{section}{References}
+\end{frame}
+
+\begin{frame}
+    \begin{center}
+    \Huge The End
+    \end{center}
+\end{frame}
+
+\end{document}
